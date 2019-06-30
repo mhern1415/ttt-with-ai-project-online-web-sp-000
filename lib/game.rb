@@ -34,6 +34,7 @@ def winner
     @board.cells[combination[0]] # X or O
   end
 end
+end
   
   
 end
