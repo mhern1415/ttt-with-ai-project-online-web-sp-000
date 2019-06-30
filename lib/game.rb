@@ -29,13 +29,6 @@ def over?
 end
 
 def winner
-  if won?
-    combination = won?
-    @board.cells[combination[0]] # X or O
-  end
-end
-end
-  
   
 end
 
