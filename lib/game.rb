@@ -28,9 +28,12 @@ def over?
   won? || draw?
 end
 
-def winner
-  
-end
+  def winner
+    if won?
+      combination = won?
+      @board.cells[combination[0]] # X or O
+    end
+  end
 
 def won? 
   WIN_COMBINATIONS.detect do |winner|
